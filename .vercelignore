@@ -1,0 +1,8 @@
+# Ignore the local virtual environment
+venv/
+
+# Ignore the local ChromaDB database
+Chatbot/chroma_db_gemini/
+
+# Ignore Node.js dependencies folder
+Frontend/node_modules/
