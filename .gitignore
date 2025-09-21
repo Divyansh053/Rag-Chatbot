@@ -1,33 +1,95 @@
-# Python virtual environment
+# Python related
 venv/
-
-# Python cache files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Local Database Files (ChromaDB)
+# Local Database Files
 chroma_db_gemini/
 *.sqlite3
+*.db
+*.db-journal
 
-# Environment variables (API Keys and Secrets)
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+credentials.json
+token.json
 
-# Node.js dependencies
+# Node.js and Frontend
 node_modules/
-
-# Frontend build artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+coverage/
 build/
 dist/
+.cache/
 
-# Log files
-npm-debug.log*
-yarn-error.log
+# Logs
+logs/
+*.log
 
-# OS and Editor specific files
+# OS specific files
 .DS_Store
-.vscode/
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
 .idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
