@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database Files (ChromaDB)
+chroma_db_gemini/
+*.sqlite3
+
+# Environment variables (API Keys and Secrets)
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build artifacts
+build/
+dist/
+
+# Log files
+npm-debug.log*
+yarn-error.log
+
+# OS and Editor specific files
+.DS_Store
+.vscode/
+.idea/
